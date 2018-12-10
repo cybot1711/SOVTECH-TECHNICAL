@@ -1,0 +1,21 @@
+.category-list {
+    position: relative;
+    background: #902923;
+    margin: 2em auto;
+    width: 80%;
+    box-shadow: 1px 12px 53px -8px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    height: auto;
+    border-radius: 5px;
+    .title {
+        padding: 0.5em 0 0.5em 1em;
+        border-bottom: .5px dotted gray;
+        h1 {
+            color: #D6D5C9;
+        }
+    }
+    .category-list-fields-wrapper {
+        display: flex;
+        flex-direction: column
+    }
+}

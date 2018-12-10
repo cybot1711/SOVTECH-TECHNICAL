@@ -1,0 +1,18 @@
+.category-field-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0 1em 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #D6D5C9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover, &:focus {
+        transform: translateY(-0.25em);
+    }
+    &:nth-of-type(2n + 1) {
+        background: #B9BAA3;
+        color: #902923;
+    }
+}

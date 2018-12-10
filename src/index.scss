@@ -1,0 +1,18 @@
+@import "./node_modules/normalize.scss/normalize.scss";
+
+body {
+    background: #B9BAA3;
+    flex: 1;
+    font-family: 'Archivo Black',  sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    letter-spacing: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: normal;
+}

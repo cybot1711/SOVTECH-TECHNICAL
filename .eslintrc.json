@@ -1,0 +1,26 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "react/jsx-filename-extension" : "off",
+        "react/destructuring-assignment" : "off",
+        "jsx-a11y/heading-has-content" : "off",
+        "react/button-has-type" : "off",
+        "react/require-default-props" : "off",
+        "react/no-array-index-key" : "off",
+        "jsx-a11y/click-events-have-key-events" : "off",
+        "jsx-a11y/no-static-element-interactions" : "off",
+        "camelcase" : "off",
+        "no-underscore-dangle" : "off",
+        "no-alert" : "off",
+        "no-undef" : "off"
+    }
+}
